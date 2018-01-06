@@ -1,13 +1,14 @@
 $(document).ready(function(){
 	$('#data').load('./data.html',function(){$(document).trigger('all_loaded');}); // Load html data
 });
-
+/*
 $.getScript('./numbers.js'); // Get custom mathematical functions
 $.getScript('./words.js'); // Get custom vocabulary functions
 $.getScript('./weapons.js'); // Get weapon class
 $.getScript('./families.js'); // Get family class
 $.getScript('./characters.js'); // Get characters class
 $.getScript('./rendering.js'); // Get custom display functions
+*/
 
 $(document).on('all_loaded',function(){
 	switchable_gender = createSwitchable('#switchable_span','gender',Object.keys(gender_suffixes),Object.values(gender_suffixes),gender_pronoun);
