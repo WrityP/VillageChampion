@@ -1,0 +1,68 @@
+@charset "utf-8";
+body {
+    background-color: black;
+	color:white;
+	margin:20px;
+	font-size:14pt;
+	font-family:"Times New Roman", Times, serif;
+}
+.family_name {
+	font-weight:bold;
+	color:cyan;
+}
+.first_name {
+	color:#06C;
+	cursor:pointer;
+}
+.player_name {
+	color:gold;
+	cursor:pointer;
+}
+#data{
+	display:none;
+}
+#families{
+	margin:6px;
+}
+#character_creation input{
+	background: none;
+	border:none;
+	border-bottom:1px dotted white;
+	padding:none;
+	margin:none;
+	font-size: inherit;
+	font-family: inherit;
+	color:green;
+	text-transform: capitalize;
+	text-align:right;
+}
+#create_character{
+	color:lightblue;
+	cursor:pointer;
+}
+#combat_logs{
+	text-align:center;
+	display:none;
+}
+h1{
+	text-align: center;
+}
+p{
+	text-indent: 10px;
+}
+.switchable *{
+	color:red;
+	cursor:pointer;
+}
+.switching{
+	color:gold;
+}
+.switchable > *,.switching > *{
+	display: none;
+}
+.switchable > *:first-child,.switching > *:first-child{
+	display: initial;
+}
+#combat_logs h3{
+	cursor:pointer;
+}

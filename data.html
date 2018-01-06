@@ -1,0 +1,44 @@
+<div id="templates">
+	<div id="template_intro">
+		There are {FAMILY_NUMBER} families: {FAMILY_LIST}.
+	</div>
+	<div id="template_first_name">
+		<span class="first_name" data-value="{CHARACTER_ID}">{CHARACTER_NAME}</span>
+	</div>
+
+	<div id="template_player_name">
+		<span class="player_name">{CHARACTER_NAME}</span>
+	</div>
+	<div id="template_family_name">
+		<span class="family_name" data-value="{FAMILY_ID}">{FAMILY_NAME}</span>
+	</div>
+
+	<div id="template_weapon_description">
+		<span class="weapon_description" data-value="{WEAPON_ID}">{WEAPON_NAME}, striking {ATTACK_FREQUENCY} with {ATTACK_INTENSITY} force</span>
+	</div>
+	<div id="template_attack_result">
+		<div class="attack_result">{ATTACKER_NAME} strikes {DEFENDER_NAME} with {ATTACK_INTENSITY} force.</div>
+	</div>
+	<div id="template_attack_intensity">
+		<span class="attack_intensity" style="color:{COLOR};">{TEXT}</span>
+	</div>
+	<div id="template_victory">
+		<span class="{VICTORY}">{WINNER_NAME} wins by defeating {LOSER_NAME}.</span>
+	</div>
+	<div id="template_character_creation">
+		<input type="text" size="5" value="{CHARACTER_BASENAME}" maxlength="7" class="character_basename"/><span class="gender"></span> is a member of the <span class="family"></span> family. As such, <span class="gender_pronoun"></span> wields <span class="weapon"></span>.
+	</div>
+	<div id="template_character_description">
+		{CHARACTER_NAME} is a member of the {FAMILY_NAME} family. As such, {GENDER_PRONOUN} wields {WEAPON_DESCRIPTION}.
+	</div>
+</div>
+
+<div id="switchables">
+	<div id="switchable_span">
+		<span><span></span></span>
+	</div>
+
+	<div id="switchable_div">
+		<div><div></div></div>
+	</div>
+</div>
