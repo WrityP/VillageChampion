@@ -12,11 +12,9 @@ body {
 }
 .first_name {
 	color:#06C;
-	cursor:pointer;
 }
 .player_name {
 	color:gold;
-	cursor:pointer;
 }
 #data{
 	display:none;
